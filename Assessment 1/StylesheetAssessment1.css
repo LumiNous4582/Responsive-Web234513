@@ -39,6 +39,10 @@ h1 {
   margin-bottom: 50px;
 }
 
+p {
+  margin: 50px 0px;
+}
+
 /* Headers */
 header {
   text-align: center;
@@ -486,4 +490,5 @@ footer {
     padding: 12px 0;
 
   }
+
 }
