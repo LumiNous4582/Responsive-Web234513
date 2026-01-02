@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSB</title>
+    <link rel="stylesheet" href="MainPage.css">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="header-inner">
+            <h1>MSB</h1>
+
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <input type="text" placeholder="Search posts...">
+            </div>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="MainPage.html">Home</a></li>
+                    <li><a href="Pages\PostPage\PostPage.html">Posts</a></li>
+                    <li><a href="Pages\AboutPage\AboutPage.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="content-grid">
+        <!-- Blog Post -->
+        <section class="posts">
+            <!-- 1 -->
+            <article class="post-card">
+                <h2>Overthinking And Letting Go</h2>
+                <p class="date">May 5, 2005</p>
+                <p>
+                    Overthinking can be a barrier to progress, learning to let go is essential.
+                </p>
+                <a href="Pages\PostContent\OverthinkingAndLettingGo.html">Read More</a>
+            </article>
+            <!-- 2 -->
+            <article class="post-card">
+                <h2>A Smile Can Change You</h2>
+                <p class="date">June 12, 2021</p>
+                <p>
+                    A reflection on the power of a smile and its impact on our lives.
+                </p>
+                <a href="Pages\PostContent\ASmileCanChangeYou.html">Read More</a>
+            </article>
+            <!-- 3 -->
+            <article class="post-card">
+                <h2>Progress Isn't Always Visible</h2>
+                <p class="date">Jan 1, 2007</p>
+                <p>
+                    Sometimes the most significant progress happens beneath the surface.
+                </p>
+                <a href="Pages\PostContent\ProgressIsn'tAlwaysVisible.html">Read More</a>
+            </article>
+            <!-- 4 -->
+            <article class="post-card">
+                <h2>Why I Started Writing Things Down</h2>
+                <p class="date">Feb 12, 2021</p>
+                <p>
+                    This is my blog where i share my thoughts.
+                </p>
+                <a href="Pages\PostContent\WhyIStartedWritingThingsDown.html">Read More</a>
+            </article>
+            <!-- 5 -->
+            <article class="post-card">
+                <h2>Small Wins Count</h2>
+                <p class="date">Sept 19, 2025</p>
+                <p>
+                    Celebrating small victories can lead to greater success over time.
+                </p>
+                <a href="Pages\PostContent\SmallWinsCount.html">Read More</a>
+            </article>
+        </section>
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <!-- About the Blog -->
+            <h3>About this blog</h3>
+            <p>
+                A simple blog website for sharing thoughts and ideas.
+            </p>
+
+            <!-- About the Author -->
+            <div class="about-author">
+                <h3>The Author</h3>
+                <img src="man.png" alt="Author" class="author-img">
+                <p>Im John the author of this blog i use this blog to share my thoughts and tips that ive learned along
+                    the way</p>
+            </div>
+
+            <!-- Quotes -->
+            <div class="quote-box">
+                <h3>Quote</h3>
+                <p id="quote-text">Loading quote...</p>
+                <small id="quote-author"></small>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="newsletter">
+                <h3>Newsletter</h3>
+                <p>Get new posts and news delivered to you email</p>
+
+                <form id="newsletter-form">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="yourEmail@gmail.com" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+
+
+        </aside>
+    </main>
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2025 MSB. All rights reserved.</p>
+    </footer>
+    <script src="MainPage.js"></script>
+</body>
+
+</html>
